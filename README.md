@@ -34,7 +34,8 @@ StudentResultManagementSystem/
 
 ## ⚡ Getting Started
 
-### 1️⃣ Clone the Repository
+### 
+1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/Gayathri-9390/Student-Result-Management-System.git
 cd Student-Result-Management-System
