@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Result Management</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h2>Student Result Management</h2>
+    <form action="/add" method="post">
+        <input type="text" name="roll" placeholder="Roll No" required><br>
+        <input type="text" name="name" placeholder="Name" required><br>
+        <input type="number" name="sub1" placeholder="Marks in Subject 1" required><br>
+        <input type="number" name="sub2" placeholder="Marks in Subject 2" required><br>
+        <input type="number" name="sub3" placeholder="Marks in Subject 3" required><br>
+        <button type="submit">Add Student</button>
+    </form>
+    <a href="/results">View Results</a>
+</body>
+</html>

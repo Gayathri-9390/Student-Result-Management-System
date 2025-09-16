@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Student</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h2>Search Student by Roll No</h2>
+    <form method="post">
+        <input type="text" name="roll" placeholder="Enter Roll No" required><br>
+        <button type="submit">Search</button>
+    </form>
+
+    {% if student %}
+    <h3>Result Found:</h3>
+    <table border="1">
+        <tr>
+            <th>Roll No</th><th>Name</th><th>Sub1</th><th>Sub2</th><th>Sub3</th><th>Total</th><th>%</th><th>Grade</th>
+        </tr>
+        <tr>
+            <td>{{ student[0] }}</td><td>{{ student[1] }}</td>
+            <td>{{ student[2] }}</td><td>{{ student[3] }}</td><td>{{ student[4] }}</td>
+            <td>{{ student[5] }}</td><td>{{ student[6] }}</td><td>{{ student[7] }}</td>
+        </tr>
+    </table>
+    {% elif student is not none %}
+    <p>No student found with that Roll No.</p>
+    {% endif %}
+
+    <br>
+    <a href="/">Back to Home</a>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Results</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h2>All Student Results</h2>
+    <table border="1">
+        <tr>
+            <th>Roll No</th><th>Name</th><th>Sub1</th><th>Sub2</th><th>Sub3</th><th>Total</th><th>%</th><th>Grade</th>
+        </tr>
+        {% for s in students %}
+        <tr>
+            <td>{{ s[0] }}</td><td>{{ s[1] }}</td>
+            <td>{{ s[2] }}</td><td>{{ s[3] }}</td><td>{{ s[4] }}</td>
+            <td>{{ s[5] }}</td><td>{{ s[6] }}</td><td>{{ s[7] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <br>
+    <br>
+<a href="/search">Search Student by Roll No</a>
+<br><br>
+<br>
+<a href="/export">⬇️ Download Results as Excel</a>
+<br><br>
+
+    <a href="/">Add Another Student</a>
+</body>
+</html>
