@@ -30,6 +30,8 @@ StudentResultManagementSystem/
 │── students.csv # Student records (data storage)
 │── exported_results.xlsx # Generated report
 
+yaml
+Copy code
 
 ---
 
@@ -42,10 +44,12 @@ cd Student-Result-Management-System
 2️⃣ Install Dependencies
 Make sure you have Python 3 installed, then run:
 
-
+bash
+Copy code
 pip install flask pandas openpyxl
 3️⃣ Run the Application
-
+bash
+Copy code
 python app.py
 Open your browser and go to 👉 http://127.0.0.1:5000
 
