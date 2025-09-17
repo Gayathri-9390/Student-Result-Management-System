@@ -46,28 +46,30 @@ StudentResultManagementSystem/
 ```bash
 git clone https://github.com/Gayathri-9390/Student-Result-Management-System.git
 cd Student-Result-Management-System
+---
 2️⃣ Install Dependencies
 Make sure you have Python 3 installed, then run:
-
+---
 bash
 Copy code
 pip install flask pandas openpyxl
+---
 3️⃣ Run the Application
 bash
 Copy code
 python app.py
 Then open your browser and go to 👉 http://127.0.0.1:5000
-
+---
 📸 Screenshots
 (Add screenshots here after running the app — e.g., Home Page, Add Student Form, Results Page)
-
+---
 📌 Future Enhancements
 Add authentication (Admin login)
 
 Use a proper database (MySQL / SQLite)
 
 Deploy on Heroku / Render / PythonAnywhere
-
+---
 👩‍💻 Author
 Gayathri
 📌 Built as part of practice projects for placement preparation 
