@@ -37,7 +37,7 @@ StudentResultManagementSystem/
 │── exported_results.xlsx # Generated report
 
 
-⚡ Getting Started  
+##⚡ Getting Started  
 
 1️⃣ Clone the Repository  
 
