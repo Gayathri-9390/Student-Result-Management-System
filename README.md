@@ -47,14 +47,14 @@ StudentResultManagementSystem/
 git clone https://github.com/Gayathri-9390/Student-Result-Management-System.git
 cd Student-Result-Management-System
 ---
-### 2️⃣ Install Dependencies
+## 2️⃣ Install Dependencies
 Make sure you have Python 3 installed, then run:
 ---
 bash
 Copy code
 pip install flask pandas openpyxl
 ---
-### 3️⃣ Run the Application
+## 3️⃣ Run the Application
 bash
 Copy code
 python app.py
