@@ -59,15 +59,21 @@ python app.py
 
 Then open your browser and go to 👉 http://127.0.0.1:5000  
 
+---
+
 📸 Screenshots  
 
 (Add screenshots here after running the app — e.g., Home Page, Add Student Form, Results Page)  
+
+---
 
 📌 Future Enhancements  
 
 - Add authentication (Admin login)  
 - Use a proper database (MySQL / SQLite)  
 - Deploy on Heroku / Render / PythonAnywhere  
+
+---
 
 👩‍💻 Author  
 
