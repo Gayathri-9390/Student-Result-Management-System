@@ -25,14 +25,18 @@ This project demonstrates full-stack development with Python backend, CSV file h
 ## 📂 Project Structure  
 
 StudentResultManagementSystem/
+
 │── static/ # CSS files
+
 │── templates/ # HTML templates
+
 │── app.py # Flask application
+
 │── students.csv # Student records (data storage)
+
 │── exported_results.xlsx # Generated report
 
-yaml
-Copy code
+
 
 ---
 
