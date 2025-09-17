@@ -37,12 +37,16 @@ StudentResultManagementSystem/
 │── exported_results.xlsx # Generated report
 
 
-##⚡ Getting Started  
 
-1️⃣ Clone the Repository  
+---
 
-git clone https://github.com/Gayathri-9390/Student-Result-Management-System.git  
-cd Student-Result-Management-System  
+## ⚡ Getting Started  
+
+### 1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/Gayathri-9390/Student-Result-Management-System.git
+cd Student-Result-Management-System
+  
 
 2️⃣ Install Dependencies  
 
